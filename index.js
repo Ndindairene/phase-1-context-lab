@@ -1,16 +1,4 @@
 /* Your Code Here */
-// const allWagesFor = function () {
-//     const eligibleDates = this.timeInEvents.map(function (e) {
-//         return e.date
-//     })
-
-//     const payable = eligibleDates.reduce(function (memo, d) {
-//         return memo + wagesEarnedOnDate.call(this, d)
-//     }.bind(this), 0) 
-
-//     return payable
-// }
-
 function createEmployeeRecord(data) {
     return {
       firstName: data[0],
